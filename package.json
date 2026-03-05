@@ -2,6 +2,7 @@
   "name": "react-native-reliability",
   "version": "1.0.0",
   "description": "A production-ready toolkit for React Native stability and observability",
+  "type": "commonjs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -11,8 +12,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest",
-    "typecheck": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "test": "jest"
   },
   "keywords": [
     "react-native",
