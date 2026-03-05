@@ -55,5 +55,9 @@
     "react-dom": "18.2.0",
     "react-test-renderer": "18.2.0",
     "typescript": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yuyutsu/react-native-reliability"
   }
 }
